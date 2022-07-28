@@ -19,18 +19,22 @@
         align-items: center;
         justify-content: space-between;
 
-
             .left{
-                        
                 display: flex;
                 align-items: center;
                     .logo{
-                        font-size: 40px;
+                        font-size: 23px;
                         font-weight: 700;
                         text-decoration: none;
-                        color: inherit;
                         margin-right: 40px;
-                    }        
+                        .name{  
+                            color: rgb(121, 190, 213);
+                        }    
+                        .job{
+                            color: black;
+                            font-size: 20px;
+                        }  
+                    }  
                 }
 
             
@@ -58,7 +62,7 @@
 
     &.active{
         background-color: white;
-        color: lightblue;
+        color: rgb(121, 190, 213);
 
         .hamburger{
             span{

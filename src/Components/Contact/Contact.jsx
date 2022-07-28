@@ -6,7 +6,8 @@ export default function Intro() {
 
     return (
         <div className = 'contact' id='contact'>
-        Contact Us: Info on How to Contact, Form ....
+        <form>Starting Form Now</form>\
+        <submit>Sumbit Here</submit>
         </div>
     )
 }
