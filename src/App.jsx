@@ -4,7 +4,7 @@ import Intro from "./Components/Intro/Intro";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import { useState } from 'react'
-import Menu from "./Components/Menu/Menu";
+//import Menu from "./Components/Menu/Menu";
 
 
 
