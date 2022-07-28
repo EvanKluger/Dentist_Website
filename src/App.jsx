@@ -4,7 +4,7 @@ import Intro from "./Components/Intro/Intro";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import { useState } from 'react'
-//import Menu from "./Components/Menu/Menu";
+import Menu from "./Components/Menu/Menu";
 
 
 
@@ -13,6 +13,7 @@ function App() {
     return (
       <div className="app">
         <Topbar menuOpen = {menuOpen} setMenuOpen = {setMenuOpen}/>
+        <Menu menuOpen = {menuOpen} setMenuOpen = {setMenuOpen}/>
         <div className="sections">
           <Intro />
           <About />
