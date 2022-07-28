@@ -7,7 +7,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
         <div className = {'topbar '+ (menuOpen && 'active')}>
            <div className="wrapper">
                 <div className="left">
-                <a href="#intro" className='logo'>Dr. Reena Rothman</a>
+                <a href="#intro" className='logo'>Dr. Reena Rothman - Dentist</a>
                 </div>
                     <div className="right">
                         <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
