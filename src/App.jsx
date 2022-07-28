@@ -5,6 +5,7 @@ import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import { useState } from 'react'
 import Menu from "./Components/Menu/Menu";
+import Gallery from "./Components/Gallery/Gallery";
 
 
 
@@ -18,6 +19,7 @@ function App() {
           <Intro />
           <About />
           <Contact />
+          <Gallery/>
         </div>
       </div>
     );
