@@ -14,6 +14,10 @@ export default function Menu({menuOpen, setMenuOpen}) {
                 <li>
                 <a href="#contact">Contact</a>
                 </li>
+                <li>
+                <a href="#gallery">Gallery</a>
+                </li>
+
             </ul>
         </div>
     )
