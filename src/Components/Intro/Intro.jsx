@@ -16,7 +16,7 @@ export default function Intro() {
                 <div className="wrapper">
                 <div className='signup'>Hi, please fill out the form below</div>
                 <form action="https://formsubmit.co/jakeykluger@gmail.com" method = 'POST'>
-                    <input type='text' name = 'first name' placeholder = 'First Name' required>First Name</input>
+                    <input type='text' name = 'first name' placeholder = 'First Name' required/>
                     <input type='email' name = 'email' placeholder = 'Email Address' required/>
                     <input type='phone' name = 'phone' placeholder = 'Phone Number' required/>
                     <input type='message' name = 'message' placeholder = 'Tell me about yourself and what you are trying to address in your consultation'required/>
