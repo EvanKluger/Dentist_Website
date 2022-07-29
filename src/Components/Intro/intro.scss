@@ -21,26 +21,42 @@
         &::-webkit-scrollbar{
             display: none;
         }
-        .wrapper{
-        display: flex;
-        justify-content: center;
-        margin-top: 20%;
-        font-size: 300;
+        
         .signup{
+            display: flex;
+            justify-content: center;
+            margin-top: 20%;
+            font-size: 300;
             .name{
-            margin-top: 25%;
+                display: flex;
+                margin-top: 25%;
+                justify-content: center;
+                height: 10vh;
+                width: 10vw;
             }
             .email{
+                display: flex;
                 margin-top: 35%;
+                justify-content: center;
+                height: 10vh;
+                width: 10vw;
             }
             .phone{
+                display: flex;
                 margin-top: 45%;
+                justify-content: center;
+                height: 10vh;
+                width: 10vw;
             }
             .message{
+                display: flex;
                 margin-top: 55%;
+                justify-content: center;
+                height: 10vh;
+                width: 10vw;
             }
         }
-        }
+        
     }
             
 
