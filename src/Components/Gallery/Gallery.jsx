@@ -12,8 +12,7 @@ export default function Gallery() {
         {
             id: 1,
             title: 'Image 1',
-            img: 'public\\assets\\image-example.png',
-            icon: <ViewInArIcon className = 'icon'/>,
+            img: 'public\\assets\\dentist-jpg.png',
             decription: 'This will be Image 1',
         },
         
@@ -21,7 +20,6 @@ export default function Gallery() {
             id: 2,
             title: 'Image 2',
             img: 'public\\assets\\image-example.png',
-            icon: <ViewInArIcon className = 'icon'/>,
             decription: 'This will be Image 2',
         },
         
@@ -29,7 +27,6 @@ export default function Gallery() {
             id: 3,
             title: 'Image 3',
             img: 'public\\assets\\image-example.png',
-            icon: <ViewInArIcon className = 'icon'/>,
             decription: 'This will be Image 3',
         },
         
@@ -37,14 +34,12 @@ export default function Gallery() {
             id: 4,
             title: 'Image 4',
             img: 'public\\assets\\image-example.png',
-            icon: <ViewInArIcon className = 'icon'/>,
             decription: 'Image 4',
         },
         {
             id: 5,
             title: 'Image 5',
             img: 'public\\assets\\image-example.png',
-            icon: <ViewInArIcon className = 'icon'/>,
             decription: 'Image 5',
         },
 
@@ -65,11 +60,9 @@ export default function Gallery() {
                         <div className="left">
                             <div className="leftContainer">
                                 <div className="imgContainer">
-                                    {d.icon}
                                 </div>
                                 <h2>{d.title}</h2>
                                 <p>{d.decription}</p>
-                                <span>Project</span>
                             </div>
                         </div>
                         <div className="right">
