@@ -11,6 +11,10 @@ export default function Intro() {
                     <div className="imageContainer">
                         <img src="assets/ReenaProfile.png" alt="" />
                     </div>
+                    <div className = 'wordcont'>
+                    Have a specific issue or just need a routine checkup, no problem! Visit us to address all your needs.
+                    (Put a different image above) 
+                    </div>
                     </div>
                 </div>
 
