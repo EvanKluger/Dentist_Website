@@ -7,14 +7,18 @@ export default function Intro() {
     return (
         <div className = 'intro' id='intro'>
             <div className='left'>
+                <div className='leftcont'>
                     <div className="imageContainer">
                         <img src="assets/ReenaProfile.png" alt="" />
+                    </div>
                     </div>
                 </div>
 
             <div className='right'>
                 <div className='signup'>
-                Hi, please fill out the form below
+                <h1>Request your Virtual Consultation</h1>
+                <h2>Fill out the form below to contact us for your in person/virtual consultation</h2>
+                </div>
                 <form className = 'form' action="https://formsubmit.co/reenarothman@gmail.com" method = 'POST'>
                     <input classname = 'first' type='text' name = 'first name' placeholder = 'First Name' required/>
                     <input classname = 'last' type='text' name = 'last name' placeholder = 'Last Name' required/>
@@ -24,7 +28,6 @@ export default function Intro() {
 
                     <button type = 'submit'>Submit</button>
                 </form>
-                </div>
             </div>
         </div>
     )
