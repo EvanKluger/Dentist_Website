@@ -1,24 +1,34 @@
 .intro{
-    background-color: grey;
+    background-color: white;
     display: flex;
     .left{
         flex: 0.5;
-            
-        
-                .imageContainer{
-                width: 60vw;
-                height: 60vh;
+            .leftcont{
                 display: flex;
-                justify-content: center;
-                margin-top: 5%;
-                margin-left: -15%;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
                 
+                .imageContainer{
+                    width: 60vw;
+                    height: 60vh;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 5%;
+                    margin-left: -15%;
+                    background-color: white;
+                    overflow: hidden;  
             }
-            
-        
-        
+                .wordcont{
+                margin-left: 8%;
+                margin-top: 15%;
+                font-weight: 200;
+                font-size: 15px;
+                justify-content: center;
+                align-items: center;
+              }
         }
-        
+    }   
     .right{
         flex: 0.5;
         scrollbar-width: none;
@@ -34,7 +44,6 @@
             font-size: 30px;
             font-weight: 400;
             h1{
-            margin-top: 13%;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
@@ -88,7 +97,4 @@
             }
     }
 }
-            
-
-
 }
