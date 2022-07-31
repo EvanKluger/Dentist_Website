@@ -1,6 +1,5 @@
 import React from 'react';
 import './gallery.scss';
-import ViewInArIcon from '@mui/icons-material/ViewInAr';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import { useState } from 'react';
