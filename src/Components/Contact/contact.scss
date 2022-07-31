@@ -1,8 +1,9 @@
 .contact{
     background-color: white;
     display: flex;
+    flex-direction: column;
     .signup{
-        margin-top: 13%;
+        margin-top: 1%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -31,6 +32,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+        margin-left: 25%;
+        margin-top: 5%;
 
         .first{
             display: flex;

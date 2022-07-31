@@ -5,8 +5,8 @@ import './contact.scss';
 export default function Intro() {
 
     return (
-        <div className='signup'>
         <div className = 'contact' id='contact'>
+        <div className='signup'>
         <h1>Request your Virtual Consultation</h1>
                 <h2>Fill out the form below to contact us for your in person/virtual consultation</h2>
                 </div>
