@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .gallery{
     background-color: white;
     display: flex;
@@ -34,6 +36,9 @@
         position: absolute;
         left: 0;
         transition: all 1s ease-out;
+        @include mobile {
+            height: 300px;
+        }
         .container{
         
             width: 100vw;
@@ -43,6 +48,10 @@
 
             .item{
                 width: 750px;
+                @include mobile {
+                    width: 350px;
+                }
+
                 height: 100%;
                 background-color: lightblue;
                 border-radius: 20px;
