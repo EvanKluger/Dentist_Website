@@ -18,12 +18,19 @@
             left: 100px;
             transform: rotateY(180);
             cursor: pointer;
+            @include mobile {
+                margin-top: 20%;
+            }
+
 
         }
 
         &.right{
             right: 100px;
             cursor: pointer;
+            @include mobile {
+                margin-top: 20%;
+            }
             
         }
 
@@ -38,6 +45,7 @@
         transition: all 1s ease-out;
         @include mobile {
             height: 300px;
+            top: 50px;
         }
         .container{
         
