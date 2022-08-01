@@ -5,6 +5,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 
+
 export default function Topbar({menuOpen, setMenuOpen}) {
     return (
         <div className = {'topbar '+ (menuOpen && 'active')}>
