@@ -51,7 +51,8 @@ export default function Gallery() {
 
     return (
         <div className = 'gallery' id = 'gallery'>
-
+        <ArrowBackIosNewIcon className = 'arrow left' onClick = {()=>handleClick('left')}/>
+        <ArrowForwardIosIcon className = 'arrow right' onClick = {()=>handleClick('right')}/>
             <div className="slider" style = {{transform: `translateX(-${currentSlide * 100}vw)`}}>
                 {data.map((d) => (
                 <div className="container">
@@ -71,8 +72,7 @@ export default function Gallery() {
                 ))}
             </div>
 
-        <ArrowBackIosNewIcon className = 'arrow left' onClick = {()=>handleClick('left')}/>
-        <ArrowForwardIosIcon className = 'arrow right' onClick = {()=>handleClick('right')}/>
+        
         </div>
     )
 }

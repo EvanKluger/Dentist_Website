@@ -4,7 +4,7 @@ import './menu.scss'
 export default function Menu({menuOpen, setMenuOpen}) {
     return (
         <div className = {'menu ' + (menuOpen && 'active')}>
-            <ul classname = {'links' + ((menuOpen && 'active'))}>
+            <ul>
                 <li>
                 <a href="#intro">Home</a>
                 </li>

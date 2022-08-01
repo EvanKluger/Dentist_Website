@@ -26,15 +26,16 @@
 
     }
 
-    .links{
+    ul{
         padding: 0;
         list-style: none;
         font-size: 30px;
         color: white;
         font-weight: 200;
         width: 60%;
+        
         @include mobile {
-            margin-left: 25%;
+            align-items: center;
         }
 
         li{

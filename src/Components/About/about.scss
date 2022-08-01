@@ -14,6 +14,12 @@
             height: 60vh;
             display: flex;
             justify-content: center;
+            @include mobile {
+                margin-top: 5%;
+                width: 70vw;
+                height: 30vh;
+
+            }
     }
 
     .message{
@@ -28,7 +34,7 @@
         margin-right: 25%;
 
         @include mobile {
-            font-size: 10px;
+            font-size: 12px;
             
         }
     }
