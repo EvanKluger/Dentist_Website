@@ -45,12 +45,19 @@
         input{
             display: flex;
             width: 200px;
+            @include mobile {
+                width: 150px;
+            }
         }
         
         textarea{
             display: flex;
             height: 200px;
             width: 200px;
+            @include mobile {
+                width: 150px;
+                height: 150px;
+            }
         }       
         button{
             width: 150px;
