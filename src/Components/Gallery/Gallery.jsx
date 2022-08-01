@@ -58,8 +58,7 @@ export default function Gallery() {
                     <div className="item">
                         <div className="left">
                             <div className="leftContainer">
-                                <div className="imgContainer">
-                                </div>
+    
                                 <h2>{d.title}</h2>
                                 <p>{d.decription}</p>
                             </div>
