@@ -28,8 +28,9 @@ export default function Intro() {
                     <input classname = 'last' type='text' name = 'last name' placeholder = 'Last Name' required/>
                     <input classname = 'email' type='email' name = 'email' placeholder = 'Email Address' required/>
                     <input classname = 'phone' type='phone' name = 'phone' placeholder = 'Phone Number' required/>
+                    <span className='message'>
                     <input classname = 'message' type='message' name = 'message' placeholder = 'Tell me about yourself and what you are trying to address in your consultation'required/>
-
+                    </span>
                     <button type = 'submit'>Submit</button>
                 </form>
             </div>
