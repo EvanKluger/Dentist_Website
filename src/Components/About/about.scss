@@ -16,8 +16,8 @@
             justify-content: center;
             @include mobile {
                 margin-top: 5%;
-                width: 70vw;
-                height: 30vh;
+                width: 75vw;
+                height: 35vh;
 
             }
     }
@@ -34,7 +34,9 @@
         margin-right: 25%;
 
         @include mobile {
-            font-size: 12px;
+            font-size: 15px;
+            margin-top: 1%;
+
             
         }
     }

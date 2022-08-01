@@ -71,9 +71,7 @@ export default function Gallery() {
                 ))}
             </div>
             <ArrowBackIosNewIcon className = 'arrow left' onClick = {()=>handleClick('left')}/>
-            <ArrowForwardIosIcon className = 'arrow right' onClick = {()=>handleClick('right')}/>
-
-        
+            <ArrowForwardIosIcon className = 'arrow right' onClick = {()=>handleClick('right')}/>        
         </div>
     )
 }
