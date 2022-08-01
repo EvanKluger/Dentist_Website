@@ -59,8 +59,11 @@
             font-weight: 400;
 
             @include mobile {
-                justify-content: center;
+                justify-content: space-around;
                 align-items: center;
+                margin-right: 25%;
+                margin-left: 25%;
+
             }
 
             h1{
