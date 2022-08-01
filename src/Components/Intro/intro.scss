@@ -96,27 +96,16 @@
                 margin-right: 25%;
             }
 
-            .first{
-                display: flex;
-            }
-            .last{
-                display: flex;
-            }
-            .email{
-                display: flex;
-            }
-            .phone{
-                display: flex;
-            }
-            .message{
-                margin-left: 4%;
+            input{
                 display: flex;
                 width: 200px;
+            }
+            
+            textarea{
+                display: flex;
                 height: 200px;
-                @include mobile {
-                    margin-left: 25%;
-                }
-            }        
+                width: 200px;
+            }         
             button{
                 width: 150px;
                 height: 30px;
