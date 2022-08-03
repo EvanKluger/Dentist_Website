@@ -137,12 +137,14 @@
                 }
             }
     }
-
+    /*
     &.active{
-        background-color: white;
+        backgro
+        und-color: white;
         color: rgb(121, 190, 213);
 
         .hamburger{
+            
             span{
                 &:first-child{
                     background-color: black;
@@ -157,6 +159,9 @@
                     transform: rotate(-45deg);
                 }
             }
+            
         }
+    
     }
+    */
 }
