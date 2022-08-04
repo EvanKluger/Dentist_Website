@@ -19,7 +19,7 @@
             transform: rotateY(180);
             cursor: pointer;
             @include mobile {
-                margin-top: 70%;
+                margin-top: 100%;
             }
 
 
@@ -29,7 +29,7 @@
             right: 100px;
             cursor: pointer;
             @include mobile {
-                margin-top: 70%;
+                margin-top: 100%;
             }
             
         }
@@ -68,59 +68,15 @@
                 align-items: center;
                 justify-content: center;
 
-
-                .left{
-                    flex: 4;
-                    height: 100%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    
-
-                    .leftContainer{
-                        width: 90%;
-                        height: 70%;
-                        flex-direction: column;
-                        justify-content: space-between;
-                        align-items: center;
-                        scrollbar-width: none;
-                        &::-webkit-scrollbar{
-                        display: none;
-                        }
-
-                            .icon{
-                                font-size: 48px;
-                                color: black;
-                            }
-
-                           
-                        
-                        h2{
-                            font-size: 25px;
-
-                        }
-
-                        p{
-                            font-size: 17px;
-                        }
-
-                        span{
-                            font-size: 15px;
-                            font-weight: 600;
-                            text-decoration: underline;
-                            cursor: pointer;
-                            
-                        }
-                    }
-                }
                 .right{
-                    flex: 8;
                     height: 100%;
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                
-                
+                    &::-webkit-scrollbar{
+                        display: none;
+                    }
+
                     img{
                         width: 600px;
                         border-radius: 10px;
