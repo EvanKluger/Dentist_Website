@@ -9,7 +9,7 @@ export default function Intro() {
             <div className='left'>
                 <div className='leftcont'>
                     <div className="imageContainer">
-                        <img src="assets/ReenaProfile.png" alt="" />
+                        <img src="assets/michael.png" alt="" />
                     </div>
                     <div className = 'wordcont'>
                     Have a specific issue or just need a routine checkup, no problem! Visit us to address all your needs.

@@ -3,11 +3,11 @@
 .intro{
     background-color: white;
     display: flex;
+    @include mobile {
+        flex-direction: column;
+    }
     .left{
         flex: 0.5;
-        @include mobile {
-            flex: 0;
-        }
             .leftcont{
                 display: flex;
                 flex-direction: column;
@@ -15,8 +15,8 @@
                 align-items: center;
                 
                 .imageContainer{
-                    width: 60vw;
-                    height: 60vh;
+                    width: 70vw;
+                    height: 70vh;
                     display: flex;
                     justify-content: center;
                     margin-top: 5%;
@@ -42,9 +42,6 @@
     }   
     .right{
         flex: 0.5;
-        @include mobile {
-            flex: 1.0;
-        }
         scrollbar-width: none;
         &::-webkit-scrollbar{
             display: none;
