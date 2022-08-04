@@ -4,7 +4,7 @@
     background-color: white;
     display: flex;
     @include mobile {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .left{
         flex: 0.5;
