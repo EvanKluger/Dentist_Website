@@ -8,6 +8,10 @@
     }
     .left{
         flex: 0.5;
+        @include mobile {
+            flex: none;
+        }
+
             .leftcont{
                 display: flex;
                 flex-direction: column;
@@ -43,6 +47,9 @@
     }   
     .right{
         flex: 0.5;
+        @include mobile {
+            flex: none;
+        }
         scrollbar-width: none;
         &::-webkit-scrollbar{
             display: none;
